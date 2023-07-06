@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
       builder: (context, child) {
         return MaterialApp.router(
           debugShowCheckedModeBanner: false,
-          title: 'Amerta',
+          title: 'Loans App',
           theme: _buildTheme(Brightness.light),
           color: primary,
           routerConfig: router,

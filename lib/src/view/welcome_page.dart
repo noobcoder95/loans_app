@@ -59,16 +59,6 @@ class _WelcomePageState extends State<WelcomePage> {
           setState(() => _selectedIndex = value);
         },
       ),
-      // floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      // floatingActionButton: FloatingActionButton(
-      //   shape: RoundedRectangleBorder(
-      //     borderRadius: BorderRadius.circular(60.0),
-      //   ),
-      //   child: const Icon(Icons.add),
-      //   onPressed: () {
-      //     context.pushNamed(formTransactionRoute);
-      //   },
-      // ),
     );
   }
 }
